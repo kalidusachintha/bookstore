@@ -32,5 +32,5 @@ Make sure Symfony web server is Installed.
    
   3.Coupon code needs to be applied every time when user updated the card use (code_15).
   
-  4.This is open site not user logins are required.
+  4.This is a open site no user login is required.
   
