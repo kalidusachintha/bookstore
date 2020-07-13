@@ -1,0 +1,36 @@
+{% extends 'cart/index.html.twig' %}
+
+{% block content %}
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">ITEM</th>
+      <th scope="col">PRICE</th>
+      <th scope="col">QTY</th>
+      <th scope="col">SUB TOTAL</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in all_order_items %}
+    <tr>
+      <th scope="row"><a href="{{ path('book.show',{id:item.getBookId.Id}) }}"> {{item.BookId.BookName}} </a></th>
+      <td>{{item.BookId.Price}}</td>
+      <td>{{item.Qty}}</td>
+      <td>{{item.Price}}</td>
+      <td><a href="{{ path('cart.remove.item',{bookid:item.getBookId.Id,qty:item.Qty,subtotal:item.Price}) }}"> Remove </a></td>
+    </tr>    
+    {% endfor %}
+    <tr>
+    <td><button type="button" class="btn btn-outline-success btn-block"> <a href="{{ path('main') }}"> CONTINUE SHOPPOING </a></button> </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td><button type="button" class="btn btn-success">ORDER TOTAL  <span class="badge badge-light">{{subtotal}}</span></button>  
+    {% if all_order_items %}<button type="button" class="btn btn-secondary"><a style="color: #fff;text-decoration: none;" href="{{ path('checkout') }}">CHECKOUT</a></button> {% endif %}</span></button></td>
+    </tr>
+    
+  </tbody>
+</table>
+{% endblock %}

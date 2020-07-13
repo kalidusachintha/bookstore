@@ -1,0 +1,13 @@
+{% extends 'layouts/base_layout.html.twig' %}
+{% block body %}
+    <header>                
+        {% block navigation %}
+            {{ render(controller('App\\Controller\\MainController::index')) }}
+        {% endblock %}
+    </header>
+     <main role="main">                
+        {% block content %}{% endblock %}                              
+    </main>
+{% endblock %}
+        
+    

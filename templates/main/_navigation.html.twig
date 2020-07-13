@@ -1,0 +1,21 @@
+{% extends 'main/base.html.twig' %}
+
+{% block navigation %}
+  <nav class="navbar navbar-expand-md">
+      <a class="navbar-brand" href="{{path('main')}}">BooK Store</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          {% for category in categories %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ path('category', {id:category.getId()}) }}">{{ category.getCategoryName}}<span class="sr-only">(current)</span></a>
+            </li>                    
+          {% endfor %}
+        </ul>
+      <span><button type="button" class="btn btn-success"><a style="color: #fff;" href="{{path('cart')}}">Shopping Cart |  <span class="badge badge-light">{{minicartvalue}}</span></a></button> </span>
+    </div>
+  </nav>
+  
+{% endblock %}
