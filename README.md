@@ -1,4 +1,4 @@
-# Book Store
+# Book Store 
 ## System Requirement 
 
 - PHP 7
@@ -8,7 +8,7 @@
 ## Installtion Guide
 
 - This App uses `PHP 7` `Mysql 5.7` 
-- Install latest version of Symfony using this [Guide](https://symfony.com/doc/current/setup.html).
+- Install latest version of Symfony using this [Guide](https://symfony.com/doc/current/setup.html)(this app uses V5.1).
 Make sure Symfony web server is Installed.
 - Get a clone of this Repo and run `git clone` with the repo URL
 - Go to project directry 
