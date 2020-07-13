@@ -30,6 +30,7 @@ Make sure Symfony web server is Installed.
   2.If you buy 10 books from each category you get 5% additional discount from the totalbill
    Assume this applies to all the categories not just for 1 category with 10 books
    
-  3.Coupon code needs to be applied every time when user updated the card.use (code_15).
+  3.Coupon code needs to be applied every time when user updated the card use (code_15).
+  
   4.This is open site not user logins are required.
   
