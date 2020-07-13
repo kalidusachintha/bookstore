@@ -21,7 +21,7 @@ Make sure Symfony web server is Installed.
 - Start the server 
   > symfony server:start
  
- ##Assummptions
+ ## Assummptions
 
   1.If you buy 5 or more Children books you get a 10% discount from the Children books total
    Assume this applies only for Children and category name will not be changed.
@@ -30,3 +30,5 @@ Make sure Symfony web server is Installed.
    Assume this applies to all the categories not just for 1 category with 10 books
    
   3.Coupon code needs to be applied every time when user updated the card.use (code_15);
+  4.This is open site not user logins are required.
+  
