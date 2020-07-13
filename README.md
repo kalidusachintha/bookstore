@@ -34,3 +34,25 @@ Make sure Symfony web server is Installed.
   
   4.This is a open site no user login is required.
   
+  ## APP Interfaces
+   - Home
+   ![Welcome_](https://user-images.githubusercontent.com/66696942/87340845-46009200-c566-11ea-8574-9d1e3d6931b7.png)
+   
+   - Category Page
+   ![plp](https://user-images.githubusercontent.com/66696942/87340986-7ea06b80-c566-11ea-9980-548759c31dde.png)
+   
+   - Product Detail Page
+   ![pdp](https://user-images.githubusercontent.com/66696942/87341096-a55ea200-c566-11ea-8788-de1b8a4409a2.png)
+   
+   - Cart Page
+   ![cart](https://user-images.githubusercontent.com/66696942/87341142-b9a29f00-c566-11ea-97bf-d51cf2971d21.png)
+   
+   - Checkout Page
+   ![checkout](https://user-images.githubusercontent.com/66696942/87341185-cd4e0580-c566-11ea-98c0-e5e1657dfc54.png)
+   
+
+
+
+
+  
+  
