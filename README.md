@@ -20,6 +20,7 @@ Make sure Symfony web server is Installed.
 - Run `php bin/console doctrine:fixtures:load`
 - Start the server 
   > symfony server:start
+- Go to `http://127.0.0.1:8000/main`
  
  ## Assummptions
 
